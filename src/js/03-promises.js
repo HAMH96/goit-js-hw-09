@@ -19,6 +19,7 @@ form.addEventListener('submit', event => {
       });
     delay = delay + step;
   }
+  form.reset();
 });
 
 const createPromise = (position, delay) => {
